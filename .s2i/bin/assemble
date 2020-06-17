@@ -1,5 +1,8 @@
 #!/bin/bash -e
 
+rm -rf ./git
+rm -rf ./s2i
+
 if [ -e /usr/local/sti/assemble ]; then
   # old assemble location in previous php image versions
   source /usr/local/sti/assemble
